@@ -1,0 +1,29 @@
+.languageSwitcher {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  padding: 6px 12px;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--gray);
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  color: var(--primary);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+

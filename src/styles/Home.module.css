@@ -1,0 +1,17 @@
+.page {
+  --background: #fafafa;
+  --foreground: #fff;
+  --primary: #5dcbf4;
+  --secondary: #fcde68;
+  --gray: #404041;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: Geomanist, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .page {
+    gap: 10px
+  }
+}

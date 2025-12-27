@@ -1,0 +1,71 @@
+{
+  "Search": {
+    "placeholder": "ابحث عن سيارات، هواتف محمولة، والمزيد..."
+  },
+  "home": {
+    "carsForSale": "سيارات للبيع",
+    "apartmentsForRent": "شقق وفلل للإيجار",
+    "mobilePhones": "هواتف محمولة",
+    "categories": "جميع الفئات",
+    "trendingProducts": "الإعلانات الرائجة"
+  },
+  "common": {
+    "viewMore": "عرض المزيد",
+    "scrollToTop": "العودة إلى الأعلى",
+    "loading": "جاري التحميل..."
+  },
+  "location": {
+    "lebanon": "لبنان",
+    "current_location": "الموقع الحالي",
+    "use_current_location": "استخدام الموقع الحالي",
+    "choose_location": "اختر الموقع",
+    "all_lebanon": "عرض الإعلانات في جميع لبنان",
+    "search_placeholder": "ابحث عن موقع...",
+    "no_locations": "لم يتم العثور على مواقع",
+    "geolocation_error": "تعذر الحصول على موقعك",
+    "geolocation_unsupported": "المتصفح لا يدعم تحديد الموقع",
+    "districts": "الأقضية",
+    "towns": "البلدات",
+    "back": "العودة إلى لبنان",
+    "back_to_governorates": "العودة إلى المحافظات"
+  },
+  "categoriesPost": {
+    "title": "اختر فئة",
+    "loadingCategories": "جاري تحميل الفئات...",
+    "selectCategory": "اختر فئة",
+    "selectCategoryHint": "اختر فئة من القائمة اليسرى لعرض الفئات الفرعية",
+    "noSubcategories": "لا توجد فئات فرعية",
+    "selectThisCategory": "اختيار هذه الفئة"
+  },
+  "post": {
+    "title": "أضف إعلانك",
+    "adDetails": "بيع إعلانك",
+    "categoryTitle": "اختر فئة",
+    "categories": "الفئة",
+    "loadingCategories": "جاري تحميل الفئات...",
+    "loadingForm": "جاري تحميل النموذج...",
+    "titleField": "العنوان",
+    "titlePlaceholder": "أدخل عنوانًا واضحًا لإعلانك",
+    "descriptionField": "الوصف",
+    "descriptionPlaceholder": "اشرح ما الذي تبيعه",
+    "description": "الوصف",
+    "uploadImages": "رفع الصور",
+    "coverImageHint": "ننصح باستخدام الوضع الأفقي للصورة الرئيسية.",
+    "addVideo": "إضافة فيديو",
+    "videoPlaceholder": "أدخل رابط فيديو يوتيوب",
+    "propertyDetails": "تفاصيل العقار",
+    "price": "السعر",
+    "additionalDetails": "تفاصيل إضافية",
+    "sellYourAd": "بيع إعلانك",
+    "changeCategory": "تغيير",
+    "back": "رجوع",
+    "publishAd": "نشر الإعلان",
+    "needHelp": "هل تحتاج إلى مساعدة للبدء؟",
+    "helpText": "راجع هذه الموارد لتتعلم كيفية إنشاء إعلان مميز وزيادة فرص البيع",
+    "tipsImproving": "نصائح لتحسين إعلاناتك وزيادة فرص البيع",
+    "allYouNeed": "كل ما تحتاج معرفته عن نشر الإعلانات",
+    "alwaysComeBack": "يمكنك دائمًا العودة لتعديل إعلانك",
+    "createdSuccessfully": "تم إنشاء الإعلان بنجاح!",
+    "emptyField": "بيانات الحقل ناقصة."
+  }
+}

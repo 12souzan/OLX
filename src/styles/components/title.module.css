@@ -1,0 +1,94 @@
+.titleContainer {
+    width: 100%;
+    margin-bottom: 10px;
+    margin: auto;
+    /* max-width: 1005px; */
+}
+
+.titleContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.titleText {
+    font-size: 1.89rem;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--gray);
+}
+
+
+
+.viewMoreContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.viewMoreButton {
+    font-weight: 700;
+    white-space: nowrap;
+    color: var(--primary);
+    border: none;
+    background: white;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+
+.viewMoreLink {
+    font-weight: 700;
+    white-space: nowrap;
+    color: var(--primary);
+    border: none;
+    background: white;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .titleContainer {
+        padding: 0 12px;
+        margin: 24px 0 12px;
+    }
+    .titleContent{
+        padding: 0px;
+    }
+    
+    .titleText {
+        font-size: 20px;
+    }
+
+    .viewMoreContainer {
+        align-self: flex-end;
+    }
+    
+    .titleMain {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 480px) {
+    .titleText {
+        font-size: 18px;
+    }
+    
+    .viewMoreButton {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+}

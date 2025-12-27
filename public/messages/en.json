@@ -1,0 +1,73 @@
+{
+  "Search": {
+    "placeholder": "Find cars, mobile phones, and more..."
+  },
+  "home": {
+    "carsForSale": "Cars for Sale",
+    "apartmentsForRent": "Apartments & Villas For Rent",
+    "mobilePhones": "Mobile Phones",
+    "categories": "All Categories",
+    "trendingProducts": "Trending Products"
+  },
+  "common": {
+    "appName":"OLX",
+    "appDescription": "About OLX",
+    "viewMore": "View More",
+    "scrollToTop": "Back To Top",
+    "loading":"Loading..."
+  },
+  "location": {
+    "lebanon": "Lebanon",
+    "current_location": "Current Location",
+    "use_current_location": "Use current location",
+    "choose_location": "Choose location",
+    "all_lebanon": "See ads in all Lebanon",
+    "search_placeholder": "Search for location...",
+    "no_locations": "No locations found",
+    "geolocation_error": "Unable to get your location",
+    "geolocation_unsupported": "Browser doesn't support location",
+    "districts": "Districts",
+    "towns": "Towns",
+    "back": "Back to lebanon",
+    "back_to_governorates": "Back to Governorates"
+  },
+    "categoriesPost": {
+    "title": "Choose a Category",
+    "loadingCategories": "Loading categories...",
+    "selectCategory": "Select a category",
+    "selectCategoryHint": "Select a category from the left list to view subcategories",
+    "noSubcategories": "No subcategories available",
+    "selectThisCategory": "Select this category"
+  },
+ "post": {
+   "title": "Post your ad",
+    "adDetails": "Sell your ad",
+    "categoryTitle": "Choose a category",
+    "categories": "category",
+    "loadingCategories": "Loading categories...",
+    "loadingForm": "Loading form...",
+    "titleField": "Title",
+    "titlePlaceholder": "Enter a clear title for your ad",
+    "descriptionField": "Description",
+    "descriptionPlaceholder": "Describe what you're selling",
+    "description": "Description",
+    "uploadImages": "Upload images",
+    "coverImageHint": "For the cover picture we recommend using the landscape mode.",
+    "addVideo": "Add a video",
+    "videoPlaceholder": "Enter Youtube video URL",
+    "propertyDetails": "Property Details",
+    "price": "Price",
+    "additionalDetails": "Additional Details",
+    "sellYourAd": "Sell your ad",
+    "changeCategory": "Change",
+    "back": "Back",
+    "publishAd": "Publish Ad",
+    "needHelp": "Need help getting started?",
+    "helpText": "Review these resources to learn how to create a great ad and increase your selling chances",
+    "tipsImproving": "Tips for improving your ads and your chances of selling",
+    "allYouNeed": "All you need to know about Posting Ads",
+    "alwaysComeBack": "You can always come back to change your ad",
+    "createdSuccessfully":"Ad created successfully!",
+    "emptyField": "Field data is missing."
+  }
+}

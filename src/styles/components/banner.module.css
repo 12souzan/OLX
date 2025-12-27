@@ -1,0 +1,139 @@
+.bannerContainer {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 24px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+.bannerSubContainer {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 24px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    cursor: pointer;
+}
+
+.swiper {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.swiperSlide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bannerImage , .subBannerImage{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 5s ease;
+}
+
+
+.paginationContainer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 10;
+    padding: 0 20px;
+}
+
+.paginationDot {
+    width: 25px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.paginationDotActive {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.paginationDotActiveWide {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.paginationDotThick {
+    height: 6px;
+}
+
+.paginationDotThickActive {
+    height: 6px;
+    background-color: white;
+}
+
+.subBannerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    /* .swiper {
+        height: 300px;
+    } */
+
+    .bannerContent {
+        padding: 20px;
+    }
+
+    .bannerTitle {
+        font-size: 22px;
+    }
+
+    .bannerDescription {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .swiper {
+        height: 250px;
+    } */
+
+    .bannerContent {
+        padding: 15px;
+    }
+
+    .bannerTitle {
+        font-size: 18px;
+    }
+
+    .paginationDot {
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+    }
+
+    .paginationDotActive {
+        width: 8px;
+        border-radius: 100%;
+    }
+    .bannerSubContainer{
+        display: none;
+    }
+}
